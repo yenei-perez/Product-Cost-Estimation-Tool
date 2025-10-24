@@ -17,7 +17,10 @@ Displays a formatted receipt showing the company name, cable length, price per f
 
 
 How It Works:
-The program defines price tiers as variables and uses an if-elif-else control structure to determine which pricing level applies based on the user's input. The calculation is then performed by multiplying the cable length by the corresponding price per foot. Finally, the results are printed in a simple, readable receipt format.
+The program defines price tiers as variables and uses an 
+if-elif-else control structure to determine which pricing level applies based on the user's input. 
+The calculation is then performed by multiplying the cable length by the corresponding price per foot. 
+Finally, the results are printed in a simple, readable receipt format.
 
 
 
