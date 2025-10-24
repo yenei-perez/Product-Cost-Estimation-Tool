@@ -1,0 +1,37 @@
+#Variables 
+price_per_feet_og = 0.87 
+price_per_feet_100 = 0.80 
+price_per_feet_250 = 0.70 p
+rice_per_feet_500 = 0.50 
+
+#Welcome message 
+print("Hello User! Welcome") 
+
+#Get company name from user 
+company_name = input("What is your company name? ") 
+
+#Get # of feet of fiber optic cable to install 
+feet_cable = input("How many feet of optic cable do you need? ") 
+
+#Convert feet_cable into float 
+feet_cable = int(feet_cable) 
+
+#Calculate order cost using if function 
+if feet_cable > 500: 
+  price_per_feet = price_per_feet_500 
+  order_cost = float(feet_cable) * float(price_per_feet) 
+elif feet_cable > 250: 
+  price_per_feet = price_per_feet_250 
+  order_cost = float(feet_cable) * float(price_per_feet) 
+elif feet_cable > 100: 
+  price_per_feet = price_per_feet_100 
+  order_cost = float(feet_cable) * float(price_per_feet) 
+else: 
+price_per_feet = price_per_feet_og 
+order_cost = float(feet_cable) * float(price_per_feet) 
+
+#Print receipt 
+print("Receipt for: ",company_name) 
+print("Feet of cable ordered: ", feet_cable) 
+print("Price per feet: $", price_per_feet) 
+print("Total Amount: $", order_cost)
