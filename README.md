@@ -5,6 +5,7 @@ applying tiered discounts depending on the quantity ordered.
 
 
 What It Does:
+
 Prompts the user for their company name and the length of fiber optic cable needed.
 Applies a discounted price per foot according to the total length ordered:
 $0.87 per foot for up to 100 feet
@@ -17,6 +18,7 @@ Displays a formatted receipt showing the company name, cable length, price per f
 
 
 How It Works:
+
 The program defines price tiers as variables and uses an 
 if-elif-else control structure to determine which pricing level applies based on the user's input. 
 The calculation is then performed by multiplying the cable length by the corresponding price per foot. 
