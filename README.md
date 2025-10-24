@@ -8,6 +8,7 @@ What It Does:
 
 Prompts the user for their company name and the length of fiber optic cable needed.
 Applies a discounted price per foot according to the total length ordered:
+
 $0.87 per foot for up to 100 feet
 
 $0.80 per foot for orders over 100 feet
